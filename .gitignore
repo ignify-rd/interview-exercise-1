@@ -3,11 +3,14 @@
 
 # Maven
 backend/target/
-backend/.mvn/
+backend/.mvn/*
+!backend/.mvn/wrapper/
 
 # Node / Angular
 frontend/node_modules/
 frontend/dist/
+frontend/.angular/
+frontend/coverage/
 
 # IDE
 .idea/
