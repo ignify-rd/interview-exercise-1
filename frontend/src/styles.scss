@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.page-container {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-title {
+  margin-bottom: 24px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.mat-mdc-table {
+  width: 100%;
+}
+
+.chip-todo       { background-color: #e0e0e0 !important; }
+.chip-in-progress { background-color: #fff9c4 !important; }
+.chip-in-review  { background-color: #bbdefb !important; }
+.chip-done       { background-color: #c8e6c9 !important; }
+.chip-overdue    { background-color: #ffcdd2 !important; color: #b71c1c !important; }
